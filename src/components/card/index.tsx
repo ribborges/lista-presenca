@@ -1,7 +1,7 @@
 import './style.css';
 
 export type CardProps = {
-    name: string;
+    name: string | undefined;
     time: string;
 }
 
